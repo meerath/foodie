@@ -5,7 +5,9 @@ const Main=()=>{
    
     return(
         <>
-        <div className='container'>
+        <div className='container'
+        style={{maxWidth:'100vw',padding:'0'}}
+        >
             <Outlet/>
         </div>
         </>

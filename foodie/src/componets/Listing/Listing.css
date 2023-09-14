@@ -7,13 +7,14 @@
     height:600px;
     width:20%;
     float: left;
+    margin-top: 2%;
     border: 5px solid gray;
 }
 #content{
     width:65%;
     float: left;
-    margin-left: 5%;
-    margin-top: -1%;
+    margin-left: 2.5%;
+    margin-top:2%;
 
 }
 

@@ -7,6 +7,7 @@ import Main from './Main'
 // import Search from './componets/home/Search'
 // import QuickSearch from './componets/home/QuickSearch'
 import Listing from './componets/Listing/Listing'
+import Details from './componets/Details/Details'
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,8 +16,8 @@ const App = () => {
        <Routes>
        <Route path='/' element={<Main/>}>
             <Route index element={<Home/>}/>
-         
             <Route path='listing/:id' element={<Listing/>} />
+            <Route path='details/:id' element={<Details/>} />
       </Route>
        </Routes>
        {/* <QuickSearch/> */}
